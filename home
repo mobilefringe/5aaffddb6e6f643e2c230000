@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Responsive menu</title>
-  
+ 
       <link rel="stylesheet" href="style.css">
 
   
@@ -117,7 +117,7 @@
 
   
 
-    <script  src="js/index.js"></script>
+    <script  src="index.js"></script>
 
 
 
