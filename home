@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive menu</title>
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="persist-menu header col-xs-hide col-sm-hide">
+    <div class="center menu-principal col-sm-1 col-xs-1 col-md-1">
+        <div class="inner-center">
+            <span class="logo-header">
+                <a href="#">
+                   BRAND
+                </a>
+            </span>
+             <ul>
+                <li>
+                    <a href="#">
+                        <div>
+                            <span>ITEM 1</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="separador">
+                    <div><hr></div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <span>ITEM 2</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="separador">
+                    <div><hr></div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <span>ITEM 3</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="separador">
+                    <div><hr></div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <span>ITEM 4</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="separador">
+                    <div><hr></div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                          <span>ITEM 5</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="separador">
+                    <div><hr></div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <span>ITEM 6</span>
+                        </div>
+                    </a>
+                </li>
+                <div class="clear"></div>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!--////////////////////-->
+<!-- MENU MOBILE -->
+<!--////////////////////-->
+<div class="col-xs-show col-sm-show menu-mobile">
+    <div class="wrapper">
+        <a href="#">Brand</a>
+        <button id="bt-menu-mobile">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </button>
+        <div class="clear"></div>
+    </div>
+    <div id="wrapper-menu-mobile">
+        <div class="wrapper">
+            <ul>
+                <li class="first"><span>MENU</span><button id="bt-fechar-menu"><span class="">X</span></button><div class="clear"></div></li>
+                <li><a href="#">ITEM 1</a></li>
+                <li><a href="#">ITEM 2</a></li>
+                <li><a href="#">ITEM 3</a></li>
+                <li><a href="#">ITEM 4</a></li>
+                <li><a href="#">ITEM 5</a></li>
+                <li><a href="#">ITEM 6</a></li>
+            </ul>
+        </div>
+        <div class="block-menu-mobile"></div>
+    </div>
+</div>
+<p class="text">Resize browser width to see the responsive menu becoming alive</p>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
